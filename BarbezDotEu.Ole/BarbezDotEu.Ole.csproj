@@ -2,6 +2,32 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	  <Authors>Hannes Barbez</Authors>
+	  <Company>Hannes Barbez</Company>
+	  <Title>BarbezDotEu.Ole</Title>
+	  <Product>BarbezDotEu.Ole</Product>
+	  <PackageId>BarbezDotEu.Ole</PackageId>
+	  <Copyright>©2025 Hannes Barbez</Copyright>
+	  <Version>1.0.0</Version>
+	  <Description>
+		  Types for OLE (Object Linking and Embedding) interop and command definitions.
+	  </Description>
+	  <PackageTags>basic;Ole;IOleCommandTarget;OLECMD;OLECMDID</PackageTags>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageProjectUrl>https://barbez.eu</PackageProjectUrl>
+	  <PackageOutputPath>./nupkg</PackageOutputPath>
+	  <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Ole</RepositoryUrl>
+	  <RepositoryType>GIT</RepositoryType>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageIcon>ICON.png</PackageIcon>
+	  <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\ICON.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 </Project>
